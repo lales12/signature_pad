@@ -44,7 +44,7 @@ var SignaturePad = (function (document) {
                 
                 self._strokeUpdate(self.lastPoint);
             }
-        }, 20);
+        }, 10);
 
         this._canvas = canvas;
         this._ctx = canvas.getContext("2d");
